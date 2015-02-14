@@ -16,6 +16,8 @@ url:                 http://purezen.github.io
 baseurl:             /
 paginate:            7
 
+google_analytics: 
+
 # About/contact
 author:
   name:              Aditya Bhardwaj
