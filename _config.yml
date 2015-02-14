@@ -17,6 +17,7 @@ baseurl:             /
 paginate:            7
 
 google_analytics: 
+disqus_shortname: purezen
 
 # About/contact
 author:
