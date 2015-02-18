@@ -6,7 +6,6 @@ highlighter:         pygments
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           /posts/:title
-relative_permalinks: true
 
 # Setup
 title:               purezen_
@@ -21,13 +20,16 @@ disqus_shortname: purezen
 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style:    compressed
 
 # About/contact
 author:
-  name:              Aditya Bhardwaj
-  url:               https://twitter.com/purezen_
-  email:             aditya2204@gmail.com
+  name:             Aditya Bhardwaj
+  url:              https://twitter.com/purezen_
+  email:            aditya2204@gmail.com
+  github:           purezen
+  twitter:          purezen_
+  linkedin:         purezen
 
 # Custom vars
 version:             1.0.0

@@ -31,21 +31,12 @@ pre {
 /*****************************************************************************/
 
 .sidebar {
-  font-size: 0.8rem;
+  font-size: 0.999999999rem;
 }
 
 .sidebar-nav-item {
   letter-spacing: calc(0.08em);
   text-transform: uppercase;
-}
-
-.sidebar .social-icons a {
-  color: rgba(255, 255, 255, 0.6);
-  padding-right: 0.75em;
-}
-
-.sidebar .social-icons a:hover {
-  text-decoration: none;
 }
 
 /*****************************************************************************/
@@ -113,47 +104,4 @@ ul.posts li span {
   vertical-align: super;
   font-size: 10px;
   font-size: 0.625rem;
-}
-
-/*****************************************************************************/
-/*
-/* specialty
-/*
-/*****************************************************************************/
-
-.grails-travis {
-  /*display: table;*/
-  vertical-align: middle;
-}
-
-.grails-travis img {
-  display: inline;
-  max-height: 200px;
-  vertical-align: middle;
-  width: 28%;
-}
-
-.grails-travis span {
-  font-size: 475%;
-  position: relative;
-  /*padding-bottom: 40%;*/
-  top:10px;
-}
-
-.spring-mybatis {
-  vertical-align: middle;
-}
-
-.spring-mybatis img {
-  display: inline;
-  max-height: 200px;
-  vertical-align: middle;
-  width: 28%;
-}
-
-.spring-mybatis span {
-  font-size: 300%;
-  position: relative;
-  /*padding-bottom: 40%;*/
-  top:5px;
 }
