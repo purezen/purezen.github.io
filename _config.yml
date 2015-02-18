@@ -15,7 +15,7 @@ url:                 http://purezen.github.io
 baseurl:             /
 paginate:            7
 
-google_analytics: 
+google_analytics: 'UA-59678197-1'
 disqus_shortname: purezen
 
 sass:
