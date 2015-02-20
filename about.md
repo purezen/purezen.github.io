@@ -22,6 +22,8 @@ You can find my web presence below.
 &thinsp;
 <a href="http://reddit.com/user/{{ site.author.reddit }}"><i class="fa fa-2x fa-reddit"></i></a>
 &thinsp;
+<a href="https://news.ycombinator.com/user?id={{ site.author.ycombinator }}"><i class="fa fa-2x fa-hacker-news"></i></a>
+&thinsp;
 <a href="mailto:{{ site.author.email }}"><i class="fa fa-2x fa-envelope"></i></a>
 &thinsp;
 <a href="{{ site.url }}/atom.xml"><i class="fa fa-2x fa-rss"></i></a>
