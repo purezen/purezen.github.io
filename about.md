@@ -12,18 +12,58 @@ Apart from web development, I am interested in nearly any stuff that is related 
 
 You can find my web presence below.
 
-<a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+<a href="https://twitter.com/{{ site.author.twitter }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="https://github.com/{{ site.author.github }}"><i class="fa fa-2x fa-github"></i></a>
+<a href="https://github.com/{{ site.author.github }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-github fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="https://linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-2x fa-linkedin"></i></a>
+<a href="https://linkedin.com/in/{{ site.author.linkedin }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-linkedin fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}"><i class="fa fa-2x fa-stack-overflow"></i></a>
+<a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-stack-overflow fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="http://reddit.com/user/{{ site.author.reddit }}"><i class="fa fa-2x fa-reddit"></i></a>
+<a href="http://reddit.com/user/{{ site.author.reddit }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-inverse fa-reddit fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="https://news.ycombinator.com/user?id={{ site.author.ycombinator }}"><i class="fa fa-2x fa-hacker-news"></i></a>
+<a href="https://news.ycombinator.com/user?id={{ site.author.ycombinator }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-hacker-news fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="mailto:{{ site.author.email }}"><i class="fa fa-2x fa-envelope"></i></a>
+<a href="mailto:{{ site.author.email }}">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-envelope fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
 &thinsp;
-<a href="{{ site.url }}/atom.xml"><i class="fa fa-2x fa-rss"></i></a>
+<a href="{{ site.url }}/atom.xml">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-rss fa-inverse fa-stack-1x"></i>
+  </span>
+</a>
