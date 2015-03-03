@@ -88,6 +88,8 @@ This would apply the latest changes on the code from master branch, and apply th
 
 This is my personal strategy for maintaining a git differential. If you have something to say or share, please comment below.
 
+Relevant HN page: <https://news.ycombinator.com/item?id=9140391>
+
 Ref:
 
 - <http://pivotallabs.com/git-rebase-onto/?tag=git>
