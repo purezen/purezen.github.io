@@ -70,7 +70,7 @@ $ git checkout master
 $ git rebase feature-x
 ```
 
-Also, I do all interations with the remote only from my master branch. So, in case you want to pull in the latest commits into your dev branches, simply do
+Also, I do all interactions with the remote only from my master branch. So, in case you want to pull in the latest commits into your dev branches, simply do
 
 ```sh
 $ git checkout master
