@@ -5,7 +5,7 @@ comments: true
 tags:     [reactjs, refactoring]
 ---
 
-Removing code smell in a Reactjs app — Part I : Identifying the smell Lately I have been working on a project made using a React.js stack and came across a task which involved creating a Filter Form. Since the form was going to be used across a number of places it had to be generic.
+Lately I have been working on a project made using a React.js stack and came across a task which involved creating a Filter Form. Since the form was going to be used across a number of places it had to be generic.
 
 Now making a generic form basically means to write an abstraction for the form functionality so that it could be ‘plugged-in’ easily and efficiently reused, which means that the least amount of code is repeated across its usage.
 
@@ -17,7 +17,7 @@ The original implementation (as would any other real-world use-case) also involv
 
 I then set over it. The final implementation looked something like ..
 
-```es2015
+```javascript
 getList() {
   ...
 }
@@ -48,7 +48,7 @@ Now React emphasises on uni-directional flow of state, which is from parent to c
 
 Because of this I had to explicitly set the filtered list in the parent component by calling setFilteredList function whereas in a perfectly ‘React-y’ scenario the filtered list should be available automatically.
 
-This breaks the React paradigm which emphasises on uni-directional reactive flow of data.
+> This breaks the React paradigm which emphasises on uni-directional *reactive* flow of data.
 
 Later, I found a solution for the same. Can you guess it? You might-have come across it while using Redux-Form.. Woah, I might have spilled the beans already!
 
