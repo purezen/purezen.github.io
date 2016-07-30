@@ -73,4 +73,4 @@ render() {
 
 Finally, as can be seen the filtered list is available as `filteredList` property in the Presentational (wrapped) component.
 
-You can check out the implementation in the `abstraction-via-hoc` branch of the repo. https://github.com/purezen/react-hoc-example.
+You can check out the implementation in the `abstraction-via-hoc` branch of the repo at [https://github.com/purezen/react-hoc-example](https://github.com/purezen/react-hoc-example).
